@@ -9,10 +9,10 @@ import SwiftUI
 
 struct ProfileView: View {
     @State private var editingEnabled: Bool = false
-    @State private var name: String = "Raj Bobra"
-    @State private var currentSemester: String = "Fall 2022"
-    @State private var school: String = "Arizona State University"
-    @State private var currentCompany: String = "Starbucks"
+    @State private var name: String = ""
+    @State private var currentSemester: String = ""
+    @State private var school: String = ""
+    @State private var currentCompany: String = ""
     var body: some View {
         NavigationView {
             Form {
